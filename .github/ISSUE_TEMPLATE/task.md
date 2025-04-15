@@ -1,7 +1,7 @@
 ---
 name: New Task
 about: Create a new task for the project
-title: "[Task]: "
+title: ""
 labels: task
 assignees: ''
 
