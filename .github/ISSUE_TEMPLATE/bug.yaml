@@ -1,6 +1,6 @@
 name: New Bug Report 
 description: Report a bug to help us improve
-title: ""
+title: "[BUG]"
 labels: [bug]
 assignees: []
 body:
