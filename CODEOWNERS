@@ -1,0 +1,12 @@
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# @pdyndal and @theerSs will be requested for review
+# when someone opens a pull request.
+*       @pdyndal @theerSs
+
+# You can also specify different owners for different parts of the codebase
+# For example:
+# /docs/   @pdyndal
+# /src/    @theerSs
+# *.js     @pdyndal
+# *.py     @theerSs
