@@ -1,0 +1,31 @@
+name: New Task
+description: Create a new task for the project
+title: "[TASK]: "
+type: task
+labels: [task]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for creating a new task for the project!
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide details about the task here.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Define what must be true for the task to be considered complete.
+      value: |
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true

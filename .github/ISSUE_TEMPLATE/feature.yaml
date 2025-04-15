@@ -1,0 +1,70 @@
+name: Feature Request
+description: Suggest an idea for this project
+title: "[FEATURE]: "
+type: feature
+labels: [enhancement]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## **User Story**
+        Please complete the user story below:
+  
+  - type: textarea
+    id: user-story
+    attributes:
+      label: User Story
+      description: Complete the user story format
+      value: |
+        As a **[type of user]**,  
+        I want **[a specific goal or feature]**,  
+        So that **[the benefit or value it provides]**.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## **Acceptance Criteria**
+        Define what must be true for the feature to be considered complete.
+        
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Include measurable and testable conditions
+      value: |
+        - [ ] 
+        - [ ] 
+        - [ ] 
+      placeholder: Example - "The system should display an error message if the user enters invalid credentials."
+    validations:
+      required: true
+      
+  - type: textarea
+    id: assumptions
+    attributes:
+      label: Assumptions
+      description: Outline any assumptions made while defining the feature
+      placeholder: Example - "The user is already logged into the system."
+    validations:
+      required: false
+      
+  - type: textarea
+    id: technical-notes
+    attributes:
+      label: Technical Notes
+      description: Provide any relevant technical details or considerations for implementation
+      placeholder: Example - "The feature should use the existing API endpoint `/user/profile`."
+    validations:
+      required: false
+      
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other details, links, or references that help clarify the feature
+      placeholder: Example - Include mockups, diagrams, or links to relevant documentation.
+    validations:
+      required: false
